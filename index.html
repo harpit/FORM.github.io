@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #inline {
+            background-image: linear-gradient(to right,
+                    rgba(58, 58, 158, 0.9),
+                    rgba(136, 136, 206, 0.7)),
+                url(https://previews.123rf.com/images/vadymvdrobot/vadymvdrobot1608/vadymvdrobot160800907/61584143-group-of-happy-young-business-people-using-laptop-and-working-together-in-office.jpg);
+            height: 100%;
+        }
+
+        #inline2 {
+            background-color: rgba(27, 27, 50, 0.8);
+            width: 700px;
+            height: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+            opacity: .9;
+
+
+
+
+        }
+
+        #inline3 {
+            padding-top: 30px;
+            text-align: center;
+            color: white;
+
+        }
+
+        #fname {
+            border-radius: 7px;
+            width: 87%;
+            height: 25px;
+            border: 1px solid #ced4da;
+        }
+
+        #nname {
+            padding-right: 80%;
+            font-size: 20px;
+            color: white;
+        }
+
+        #kname {
+            font-size: 20px;
+            width: 87px;
+            height: 25px;
+
+        }
+
+        #lname {
+            padding-right: 40%;
+            font-size: 20px;
+        }
+
+        #hname {
+            font-size: 15px;
+            width: 88%;
+            height: 29px;
+            border-radius: 7px;
+            border: 1px solid #ced4da;
+
+
+        }
+
+        #oname {
+            padding-right: 34%;
+            padding-left: 0%;
+            font-size: 20px;
+        }
+
+        .clue {
+
+            margin-right: 240px;
+            font-size: 13px;
+
+        }
+
+        #cname {
+            padding-right: 29%;
+            padding-left: 0%;
+            font-size: 20px;
+        }
+
+        #gname {
+            padding-right: 37%;
+            padding-left: 0%;
+            font-size: 20px;
+        }
+
+        #pname {
+            padding-right: 0%;
+            padding-left: 4.8%;
+            font-size: 20px;
+        }
+
+        .footer{
+            margin-right: 17%;
+            font-size: 13px;
+           
+
+        }
+        #submit{
+            width: 90.8%;
+            height: 35px;
+            background-color: #00FF7F;
+            border-radius: 2px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body id="inline">
+    <div style="text-align: center;">
+        <h1>ABC Courier Campany Survey Form</h1>
+        <p style="font-style: italic;">Thank you for taking the time to help us improve the platform</p>
+
+
+    </div>
+    <form>
+    <div id="inline2">
+        <div id="inline3">
+            <br>
+            <label for="Name" id="nname">Name:</label><br>
+            <input type="required" id="fname" name="fname" placeholder="Enter your name" required><br><br>
+            <label for="@" id="nname">Email</label><br>
+            <input type="Email" id="fname" name="fname" placeholder="Enter your email" required><br><br>
+            <label for="Age " id="lname">Age <span class="clue">(optional)</span></label>
+            <input type="number" id="fname" name="quantity" min="10" max="99" placeholder="Age" required>
+            <br><br>
+            <label for="Select current role" id="oname">Which option best describes your current role? </label>
+            <br>
+            <select id="hname" required>
+                <option disabled value="" selected="selected">Select current role</option>
+                <option value="Student"> Student</option>
+                <option value="Timely Delivery">Timely Delivery</option>
+                <option value="Packing">Packing</option>
+                <option value="Service">Service</option>
+            </select>
+            <br><br>
+            <label for="" id="cname">Would you recommand ABC Campany to a friend?</label>
+            <br><br>
+            <input type="radio" id="" name="fav_language" value="HTML" required>
+            <label for="select" id="html" class="form" style="padding-right: 75%;">Definitely</label><br><br>
+            <input type="radio" id="" name="fav_language" value="CSS" required>
+            <label for="select" id="jname" class="form" style="padding-right: 77.5%;">May be </label><br><br>
+            <input type="radio" id="" name="fav_language" value="CSS" required>
+            <label for="select" id="bname" class="form" style="padding-right: 76.5%;">Not sure</label><br><br>
+
+            <label for="Selct an option" id="gname">Which part of our service do you like most? </label>
+            <br>
+            <select id="hname" required>
+                
+            <option disabled value="" selected="selected">Select can option</option>
+                <option value="Timely Delivery">Timely Delivery</option><br>
+                <option value="Packing">Packing</option><br>
+                <option value="Service">Service</option><br>
+            </select>
+            <br><br>
+            <label for="Age " id="pname">Which of these product categories do you like most?<span class="footer">(check
+                    all that apply)</span></label>
+
+
+            <br><br>
+            
+            <input type="checkbox" id="" name="fav_language" value="CSS" >
+            <label for="select" style="padding-right: 76.5%; font-size: 18px;">Garment </label><br><br>
+            <input type="checkbox" id="" name="fav_language" value="CSS">
+            <label for="select" style="padding-right: 75.5%; font-size: 18px;">Cosmetics</label><br><br>
+            <input type="checkbox" id="" name="fav_language" value="CSS" >
+            <label for="select" style="padding-right: 80%; font-size: 18px;">Shoes</label><br><br>
+            <input type="checkbox" id="" name="fav_language" value="CSS" >
+            <label for="select" style="padding-right: 77.5%; font-size: 18px;">Kid toys</label><br><br>
+            <input type="checkbox" id="" name="fav_language" value="CSS">
+            <label for="select" style="padding-right: 77.5%; font-size: 18px;">Wahches</label><br>
+
+            <p style="font-size: 20px; text-align: left; padding-left: 39px;">Any comments or suggestions</p>
+            <textarea id="w3review" name="w3review" rows="7" cols="83"
+                placeholder="Enter your comment here...."></textarea><br><br>
+            <div>
+                <button type="submit" id="submit">Submit</button><br>
+            </div>
+            </Form>
+
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
